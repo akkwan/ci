@@ -7,6 +7,7 @@
             <thead>
                 <tr>
                     <th><i class="fas fa-compass fa-spin"></i></th>
+                    <th>ชื่อผู้ใช้</th>
                     <th>ชื่อ - สกุล</th>
                     <th>อีเมล์</th>
                     <th>อายุ</th>
@@ -16,8 +17,9 @@
             <tbody>
             <?php foreach ($users->result() as $user) {
     ?>
-                <tr>
+                <tr>                     
                     <td><?php echo $user->user_id ?></td>
+                    <td><?php echo $user->username ?></td>
                     <td><?php echo $user->fullname ?></td>
                     <td><?php echo $user->email ?></td>
                     <td><?php echo $user->age ?></td>

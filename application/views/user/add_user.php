@@ -1,20 +1,30 @@
 <div class="row">
             <div class="col-8">
             <form action="/user/create" method="post">
-                    <div class="form-group">
-                        <label>ชื่อ</label>
-                        <input name="fullname" type="text" class="form-control" placeholder="กรอกชื่อ สกุล">
-                    </div>
-                    <div class="form-group">
-                        <label>อีเมล์</label>
-                        <input name="email" type="email" class="form-control" placeholder="กรอกอีเมล์">
-                    </div>
-                    <div class="form-group">
-                        <label>อายุ</label>
-                        <input name="age" type="number" class="form-control" placeholder="กรอกอายุ">
-                    </div>
-                    <button type="submit" class="btn btn-primary">บันทึก</button>
-            </form>
+                   <div class="form-group">
+                       <label>ชื่อผู้ใช้</label>
+                       <input name="username" type="text" class="form-control" placeholder="กรอกชื่อผู้ใช้">
+                   </div>
+                   <div class="form-group">
+                       <label>รหัสผ่าน</label>
+                       <input name="password" type="password" class="form-control" placeholder="กรอกรหัสผ่าน">
+                   </div>
+                   <div class="form-group">
+                       <label>ชื่อ</label>
+                       <input name="fullname" type="text" class="form-control" placeholder="กรอกชื่อ สกุล">
+                   </div>
+                   <div class="form-group">
+                       <label>อีเมล์</label>
+                       <input name="email" type="email" class="form-control" placeholder="กรอกอีเมล์">
+                   </div>
+                   <div class="form-group">
+                       <label>อายุ</label>
+                       <input name="age" type="number" class="form-control" placeholder="กรอกอายุ">
+                   </div>
+                   <button type="submit" class="btn btn-primary">บันทึก</button>
+           </form>
+
+
             </div>
             <div class="col-4">
                 <ul class="list-group">
